@@ -1,0 +1,1078 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.rootElement {
+ 
+  min-height: 100vh;
+  align-content: center;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+i {
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  visibility: hidden;
+}
+
+.containerFinal {
+  background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+}
+.containerFinal .container-1 {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-size: cover;
+  min-height: 999.83px;
+}
+.containerFinal .container-1 .back {
+  position: absolute;
+  right: 0;
+}
+.containerFinal .container-1 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 30px;
+}
+.containerFinal .container-1 header .logo {
+  display: flex;
+  align-items: center;
+}
+.containerFinal .container-1 header .logo .circle {
+  height: 50px;
+  width: 50px;
+  max-width: 100%;
+  background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397a4;
+  box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+  border-radius: 100px;
+}
+.containerFinal .container-1 header .logo h4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 44px;
+  color: #486a6f;
+  margin-left: 20px;
+}
+.containerFinal .container-1 header nav {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.containerFinal .container-1 header nav i {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: #045663;
+}
+.containerFinal .container-1 header nav a {
+  color: #678c92;
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 32px;
+  margin-left: 30px;
+}
+.containerFinal .container-1 header nav button {
+  background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397a4;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  width: 169px;
+  height: 42px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 22px;
+  margin-left: 150px;
+}
+.containerFinal .container-1 .below-header {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.containerFinal .container-1 .below-header .textArea {
+  align-items: center;
+  margin-top: 140px;
+  padding: 30px;
+}
+.containerFinal .container-1 .below-header .textArea h1 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 72px;
+  color: #486a6f;
+}
+.containerFinal .container-1 .below-header .textArea p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 36px;
+  color: #678c92;
+}
+.containerFinal .container-1 .below-header .textArea .btn1 {
+  width: 118px;
+  height: 61px;
+  background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397a4;
+  box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 22px;
+  text-align: center;
+  color: #f4f7ff;
+  margin-top: 50px;
+}
+.containerFinal .container-1 .below-header .textArea .btn2 {
+  width: 257px;
+  height: 61px;
+  background: #c6dbff;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+  color: #486a6f;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: "Noto Sans";
+  font-style: normal;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.containerFinal .container-1 .below-header .picArea img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.containerFinal1 {
+  background: #f4f7ff;
+}
+.containerFinal1 .container-2 {
+  min-height: 899.83px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: block;
+}
+.containerFinal1 .container-2 h5 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.9rem;
+  line-height: 48px;
+  text-align: center;
+  color: #486a6f;
+}
+.containerFinal1 .container-2 .center {
+  padding: 120px 40px;
+}
+.containerFinal1 .container-2 .center .boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 140px;
+  padding: 10px;
+}
+.containerFinal1 .container-2 .center .boxes .box-1 {
+  padding: 10px;
+}
+.containerFinal1 .container-2 .center .boxes .box-2 {
+  padding: 10px;
+  margin-left: 20px;
+}
+.containerFinal1 .container-2 .center .boxes .box-3 {
+  padding: 10px;
+}
+.containerFinal1 .container-2 .center .boxes .blueBtn {
+  height: 70px;
+  width: 70px;
+  left: 50px;
+  top: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  background: linear-gradient(135deg, rgba(103, 140, 146, 0.2) 0%, rgba(158, 213, 222, 0.2) 100%), #678c92;
+  border-radius: 5px;
+  box-shadow: 0px 30px 60px 0px rgba(59, 130, 246, 0.25);
+}
+.containerFinal1 .container-2 .center .boxes .blueBtn img {
+  height: 25.375px;
+  width: 25.6875px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.containerFinal1 .container-2 .center .boxes h4 {
+  font-family: Noto Sans;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #486a6f;
+}
+.containerFinal1 .container-2 .center .boxes h3 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #678c92;
+}
+
+.containerFinal2 {
+  background: #e1ebfa;
+}
+.containerFinal2 .container-3 {
+  max-width: 1400px;
+  min-height: 899px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 50px;
+  align-items: center;
+}
+.containerFinal2 .container-3 hr {
+  color: #678c92;
+  max-width: 1200px;
+}
+.containerFinal2 .container-3 .images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.containerFinal2 .container-3 .images img {
+  padding: 15px;
+}
+.containerFinal2 .container-3 .below-header1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 130px;
+}
+.containerFinal2 .container-3 .below-header1 img {
+  width: 100%;
+  max-width: 500px;
+}
+.containerFinal2 .container-3 .below-header1 .text-side {
+  margin-left: 60px;
+}
+.containerFinal2 .container-3 .below-header1 .text-side h3 {
+  font-family: Noto Sans;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5bccde;
+}
+.containerFinal2 .container-3 .below-header1 .text-side h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 48px;
+  color: #486a6f;
+}
+.containerFinal2 .container-3 .below-header1 .text-side p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #678c92;
+  padding-top: 40px;
+}
+.containerFinal2 .container-3 .below-header1 .text-side button {
+  width: 200px;
+  height: 52px;
+  background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397a4;
+  box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 22px;
+  text-align: center;
+  color: #f4f7ff;
+}
+
+.containerFinal3 {
+  background: #f4f7ff;
+}
+.containerFinal3 .container-4 {
+  max-width: 1400px;
+  min-height: 899.83px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  padding: 100px;
+}
+.containerFinal3 .container-4 img {
+  max-width: 540px;
+  height: 591px;
+  width: 100%;
+  height: 100%;
+}
+.containerFinal3 .container-4 .text-side {
+  margin-top: 120px;
+}
+.containerFinal3 .container-4 .text-side h3 {
+  font-family: Noto Sans;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5bccde;
+}
+.containerFinal3 .container-4 .text-side h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 48px;
+  color: #486a6f;
+}
+.containerFinal3 .container-4 .text-side p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #678c92;
+  padding-top: 40px;
+}
+.containerFinal3 .container-4 .text-side button {
+  width: 200px;
+  height: 52px;
+  background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397a4;
+  box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 22px;
+  text-align: center;
+  color: #f4f7ff;
+}
+
+.containerFinal4 {
+  background: #e1ebfa;
+}
+.containerFinal4 .container-5 {
+  max-width: 1400px;
+  min-height: 899.83px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.containerFinal4 .container-5 p {
+  font-family: Noto Sans;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 100px;
+  color: #5bccde;
+  margin: 0;
+}
+.containerFinal4 .container-5 h2 {
+  font-family: Noto Sans;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #486a6f;
+}
+.containerFinal4 .container-5 .pic-grp {
+  padding: 10px;
+}
+.containerFinal4 .container-5 .pic-grp img {
+  padding: 20px;
+  height: 278px;
+  width: 328px;
+  max-width: 100%;
+}
+
+.containerFinal5 {
+  background: #f4f7ff;
+}
+.containerFinal5 .container-6 {
+  max-width: 1400px;
+  min-height: 899.83px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 220px 20px;
+}
+.containerFinal5 .container-6 .left-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.containerFinal5 .container-6 p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #5bccde;
+}
+.containerFinal5 .container-6 h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 48px;
+  color: #486a6f;
+}
+.containerFinal5 .container-6 .cover {
+  margin-left: 50px;
+}
+.containerFinal5 .container-6 .cover p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #486a6f;
+}
+.containerFinal5 .container-6 .cover h4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 27px;
+  color: #486a6f;
+  margin-top: -20px;
+}
+.containerFinal5 .container-6 .contact-box {
+  margin-top: 100px;
+}
+.containerFinal5 .container-6 .contact-box .contact-box1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.containerFinal5 .container-6 .contact-box .small-box {
+  height: 70px;
+  width: 70px;
+  background: #e1ebfa;
+  border-radius: 5px;
+}
+.containerFinal5 .container-6 .contact-box .small-box img {
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.containerFinal5 .container-6 .right-box {
+  padding: 10px;
+}
+.containerFinal5 .container-6 .form-box {
+  height: 508px;
+  width: 475.97265625px;
+  max-width: 100%;
+  border-radius: 5px;
+  background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+  margin-top: 60px;
+  box-shadow: 0px 30px 60px rgba(41, 81, 145, 0.25);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+}
+.containerFinal5 .container-6 .form-box .name-email {
+  display: flex;
+  justify-content: space-between;
+}
+.containerFinal5 .container-6 .form-box .name-email label {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 19px;
+  color: #678c92;
+  margin-bottom: 10px;
+}
+.containerFinal5 .container-6 .form-box .name-email input {
+  background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+  height: 40px;
+  width: 185.4213867188px;
+  border-radius: 3px;
+  border: 1px solid #486a6f;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 35px;
+}
+.containerFinal5 .container-6 .form-box .name-email .name {
+  display: flex;
+  flex-direction: column;
+}
+.containerFinal5 .container-6 .form-box .name-email .email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.containerFinal5 .container-6 .form-box .subject {
+  display: flex;
+  flex-direction: column;
+}
+.containerFinal5 .container-6 .form-box .subject label {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 19px;
+  color: #678c92;
+  margin-bottom: 10px;
+}
+.containerFinal5 .container-6 .form-box .subject input {
+  background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+  height: 40px;
+  width: 391.5089416504px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #486a6f;
+}
+.containerFinal5 .container-6 .form-box .message {
+  display: flex;
+  flex-direction: column;
+}
+.containerFinal5 .container-6 .form-box .message label {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 19px;
+  color: #678c92;
+  margin-bottom: 10px;
+}
+.containerFinal5 .container-6 .form-box .message input {
+  height: 130px;
+  width: 393.9482421875px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #486a6f;
+  background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+}
+.containerFinal5 .container-6 .form-box button {
+  height: 52px;
+  width: 395.103515625px;
+  border-radius: 5px;
+  padding: 15px 55px 15px 55px;
+  background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397a4;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 22px;
+  text-align: center;
+  color: #f4f7ff;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+}
+
+.containerFinal6 {
+  background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486a6f;
+}
+.containerFinal6 .container-7 {
+  max-width: 1400px;
+  min-height: 434px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.containerFinal6 .container-7 .box-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.containerFinal6 .container-7 .box-1 .part-1 {
+  padding-right: 100px;
+}
+.containerFinal6 .container-7 .box-1 .part-1 h2 {
+  margin-top: 0;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 44px;
+  color: #f4f7ff;
+}
+.containerFinal6 .container-7 .box-1 .part-1 h3 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #f4f7ff;
+}
+.containerFinal6 .container-7 .box-1 .part-1 h4 {
+  margin-top: 179px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #f4f7ff;
+}
+.containerFinal6 .container-7 .box-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.containerFinal6 .container-7 .box-2 .part-2 {
+  padding-right: 100px;
+  text-align: center;
+}
+.containerFinal6 .container-7 .box-2 .part-2 h5 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #f4f7ff;
+  margin-top: 8px;
+}
+.containerFinal6 .container-7 .box-2 .part-2 .footer-Button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 110px;
+}
+.containerFinal6 .container-7 .box-2 .part-01 {
+  padding-right: 100px;
+}
+.containerFinal6 .container-7 .box-2 .part-01 h4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #f4f7ff;
+  margin-top: 8px;
+}
+.containerFinal6 .container-7 .box-2 .part-02 {
+  padding: 0 50px;
+}
+.containerFinal6 .container-7 .box-2 .part-02 h4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #f4f7ff;
+  margin-top: 0;
+}
+.containerFinal6 .container-7 .box-2 .part-02 h5 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #f4f7ff;
+}
+
+@media (max-width: 1150px) {
+  .back {
+    display: none;
+  }
+  .containerFinal .container-1 header nav button {
+    margin-left: 70px;
+  }
+  .containerFinal5 .container-6 {
+    max-width: 1400px;
+    min-height: 899.83px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 10px;
+  }
+  .containerFinal6 .container-7 {
+    justify-content: flex-start;
+  }
+  .containerFinal6 .container-7 .box-1 {
+    padding: 30px;
+  }
+  .containerFinal6 .container-7 .box-1 .part-1 {
+    padding: 0;
+  }
+  .containerFinal6 .container-7 .box-1 .part-1 h3 {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 32px;
+    color: #f4f7ff;
+  }
+  .containerFinal6 .container-7 .box-1 .part-1 h4 {
+    margin-top: 140px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 32px;
+    color: #f4f7ff;
+  }
+  .containerFinal6 .container-7 .box-2 {
+    padding: 20px;
+    justify-content: flex-start;
+  }
+  .containerFinal6 .container-7 .box-2 .part-2 {
+    padding-right: 0;
+  }
+  .containerFinal6 .container-7 .box-2 .part-01 {
+    text-align: center;
+    padding-right: 0;
+    padding: 0 30px;
+  }
+  .containerFinal6 .container-7 .box-2 .part-02 {
+    padding: 0;
+  }
+}
+@media (max-width: 960px) {
+  .containerFinal .container-1 header nav button {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 850px) {
+  .containerFinal .container-1 header {
+    justify-content: flex-start;
+  }
+  .containerFinal .container-1 header i {
+    visibility: visible;
+    padding-top: 0px;
+    padding-right: 20px;
+    color: #0c7e90;
+  }
+  .containerFinal .container-1 header nav {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    z-index: 3;
+    height: 100vh;
+    max-height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 5px;
+    right: -300px;
+    transition: right 0.6s ease;
+  }
+  .containerFinal .container-1 header nav i {
+    color: #0c7e90;
+    margin-right: 100px;
+  }
+  .containerFinal .container-1 header nav a {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #109fb5;
+    margin-right: 20px;
+  }
+  .containerFinal .container-1 header nav button {
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .containerFinal .container-1 .below-header .textArea {
+    text-align: center;
+    margin-top: 0;
+  }
+  .containerFinal .container-1 .below-header .textArea .btn1 {
+    width: 90px;
+    height: 50px;
+  }
+  .containerFinal .container-1 .below-header .textArea .btn2 {
+    width: 200px;
+    height: 50px;
+  }
+  .containerFinal .container-1 .below-header .picArea {
+    padding: 30px;
+  }
+  .containerFinal .container-1 .below-header .picArea img {
+    margin-top: 10px;
+  }
+  .containerFinal1 .container-2 .center {
+    padding: 10px;
+  }
+  .containerFinal1 .container-2 .center .boxes {
+    margin-top: 0;
+  }
+  .containerFinal2 .container-3 .below-header1 {
+    margin-top: 50px;
+  }
+  .containerFinal2 .container-3 .below-header1 .text-side {
+    margin-left: 0;
+  }
+  .containerFinal2 .container-3 .below-header1 .text-side p {
+    line-height: 26px;
+  }
+  .containerFinal3 .container-4 {
+    padding: 20px;
+  }
+  .containerFinal3 .container-4 .text-side {
+    margin-top: 20px;
+  }
+  .containerFinal3 .container-4 .text-side button {
+    width: 150px;
+    height: 47px;
+  }
+  .containerFinal5 .container-6 {
+    padding: 0;
+  }
+  .containerFinal5 .container-6 .left-box .contact-box {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 45.5%;
+  }
+  .containerFinal .container-1 header {
+    justify-content: flex-start;
+  }
+  .containerFinal .container-1 header i {
+    margin-top: -10px;
+    font-size: 25px;
+  }
+  .containerFinal .container-1 header .logo .circle {
+    height: 40px;
+    width: 40px;
+  }
+  .containerFinal .container-1 header .logo h4 {
+    margin-left: 10px;
+  }
+  .containerFinal .container-1 header nav {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    z-index: 3;
+    height: 100vh;
+    max-height: 400px;
+    background-color: #fff;
+    position: fixed;
+    top: 5px;
+    right: -300px;
+    transition: right 0.6s ease;
+  }
+  .containerFinal .container-1 header nav i {
+    color: #0c7e90;
+    margin-right: 60px;
+    margin-top: 30px;
+  }
+  .containerFinal .container-1 header nav a {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    border: 1px solid #109fb5;
+    margin-right: 20px;
+  }
+  .containerFinal .container-1 header nav button {
+    width: 120px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .containerFinal .container-1 .below-header .textArea {
+    text-align: center;
+    margin-top: 0;
+  }
+  .containerFinal .container-1 .below-header .textArea .btn1 {
+    width: 90px;
+    height: 50px;
+  }
+  .containerFinal .container-1 .below-header .textArea .btn2 {
+    width: 200px;
+    height: 50px;
+  }
+  .containerFinal .container-1 .below-header .picArea {
+    padding: 30px;
+  }
+  .containerFinal .container-1 .below-header .picArea img {
+    margin-top: 10px;
+  }
+  .containerFinal1 .container-2 .center {
+    padding: 10px;
+  }
+  .containerFinal1 .container-2 .center .boxes {
+    margin-top: 0;
+  }
+  .containerFinal1 .container-2 .center .boxes .box-1 {
+    padding: 25px;
+  }
+  .containerFinal1 .container-2 .center .boxes .box-2 {
+    padding: 20px;
+    margin-left: 9px;
+  }
+  .containerFinal1 .container-2 .center .boxes .box-3 {
+    padding: 25px;
+  }
+  .containerFinal2 .container-3 .below-header1 {
+    margin-top: 50px;
+  }
+  .containerFinal2 .container-3 .below-header1 .text-side {
+    margin-left: 0;
+  }
+  .containerFinal2 .container-3 .below-header1 .text-side p {
+    line-height: 22px;
+  }
+  .containerFinal2 .container-3 .below-header1 .text-side button {
+    width: 150px;
+    height: 47px;
+  }
+  .containerFinal3 .container-4 {
+    padding: 20px;
+  }
+  .containerFinal3 .container-4 .text-side {
+    margin-top: 20px;
+  }
+  .containerFinal3 .container-4 .text-side button {
+    width: 150px;
+    height: 47px;
+  }
+  .containerFinal4 .container-5 p {
+    padding: 50px;
+  }
+  .containerFinal4 .container-5 h2 {
+    line-height: 10px;
+  }
+  .containerFinal5 .container-6 {
+    padding: 0;
+  }
+  .containerFinal5 .container-6 .left-box .contact-box {
+    margin-top: 30px;
+  }
+  .containerFinal5 .container-6 .right-box .form-box {
+    height: 400px;
+    width: 325px;
+    padding: 25px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .containerFinal5 .container-6 .right-box .name-email {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .containerFinal5 .container-6 .right-box .name-email label {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 19px;
+    color: #678c92;
+    margin-bottom: 10px;
+  }
+  .containerFinal5 .container-6 .right-box .name-email input {
+    background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+    height: 35px;
+    width: 120.4213867188px;
+    border-radius: 3px;
+    border: 1px solid #486a6f;
+    border-radius: 3px;
+    outline: none;
+  }
+  .containerFinal5 .container-6 .right-box .subject input {
+    height: 35px;
+    width: 265.5089416504px;
+  }
+  .containerFinal5 .container-6 .right-box .message {
+    margin-top: 15px;
+  }
+  .containerFinal5 .container-6 .right-box .message input {
+    height: 90px;
+    width: 265.9482421875px;
+  }
+  .containerFinal5 .container-6 .right-box button {
+    height: 45px;
+    width: 265.103515625px;
+    margin-top: 10px;
+  }
+  .containerFinal6 .container-7 {
+    justify-content: flex-start;
+  }
+  .containerFinal6 .container-7 .box-1 {
+    padding: 30px;
+  }
+  .containerFinal6 .container-7 .box-1 .part-1 {
+    padding: 0;
+  }
+  .containerFinal6 .container-7 .box-1 .part-1 h3 {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 32px;
+    color: #f4f7ff;
+  }
+  .containerFinal6 .container-7 .box-1 .part-1 h4 {
+    margin-top: 140px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 32px;
+    color: #f4f7ff;
+  }
+  .containerFinal6 .container-7 .box-1 .part-2 {
+    padding: 20px;
+    margin-top: -10px;
+  }
+  .containerFinal6 .container-7 .box-1 .part-2 .footer-Button {
+    margin-top: 90px;
+  }
+  .containerFinal6 .container-7 .box-2 {
+    padding: 20px;
+    justify-content: flex-start;
+    margin-left: -40px;
+  }
+  .containerFinal6 .container-7 .box-2 .part-2 {
+    padding-right: 0;
+    padding: 0 30px;
+  }
+  .containerFinal6 .container-7 .box-2 .part-01 {
+    padding-right: 0;
+    padding: 0 30px;
+  }
+  .containerFinal6 .container-7 .box-2 .part-02 {
+    padding: 0 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
